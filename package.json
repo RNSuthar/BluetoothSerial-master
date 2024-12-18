@@ -1,39 +1,34 @@
 {
-  "name": "cordova-plugin-battery-status",
-  "version": "3.0.0-dev",
-  "description": "Cordova Battery Plugin",
-  "types": "./types/index.d.ts",
+  "name": "cordova-plugin-ble-zbtprinter",
+  "version": "1.4.0",
+  "description": "A Cordova/Phonegap driver for Zebra bluetooth printers",
   "cordova": {
-    "id": "cordova-plugin-battery-status",
+    "id": "cordova-plugin-ble-zbtprinter",
     "platforms": [
-      "android",
-      "ios",
-      "browser"
+      "android"
     ]
   },
-  "repository": "github:apache/cordova-plugin-battery-status",
-  "bugs": "https://github.com/apache/cordova-plugin-battery-status/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prakashsatyani/cordova-plugin-ble-zbtprinter.git"
+  },
   "keywords": [
-    "cordova",
-    "battery",
     "ecosystem:cordova",
     "cordova-android",
-    "cordova-ios"
+    "zebra-printer",
+    "Bluetooth",
+    "Zebra"
   ],
-  "scripts": {
-    "test": "npm run lint",
-    "lint": "eslint ."
-  },
-  "author": "Apache Software Foundation",
-  "license": "Apache-2.0",
-  "engines": {
-    "cordovaDependencies": {
-      "4.0.0": {
-        "cordova": ">100"
-      }
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
     }
+  ],
+  "author": "Prakash Satyani",
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/prakashsatyani/cordova-plugin-ble-zbtprinter/issues"
   },
-  "devDependencies": {
-    "@cordova/eslint-config": "^3.0.0"
-  }
+  "homepage": "https://github.com/prakashsatyani/cordova-plugin-ble-zbtprinter#readme"
 }
