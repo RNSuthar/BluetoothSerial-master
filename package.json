@@ -1,34 +1,32 @@
 {
-  "name": "cordova-plugin-ble-zbtprinter",
-  "version": "1.4.0",
-  "description": "A Cordova/Phonegap driver for Zebra bluetooth printers",
+  "name": "cordova-plugin-bluetooth-serial",
+  "version": "0.4.7",
+  "description": "Bluetooth Serial Communication Plugin",
+  "main": "./www/bluetoothSerial.js",
   "cordova": {
-    "id": "cordova-plugin-ble-zbtprinter",
+    "id": "cordova-plugin-bluetooth-serial",
     "platforms": [
-      "android"
+      "android",
+      "ios",
+      "wp8"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/prakashsatyani/cordova-plugin-ble-zbtprinter.git"
+    "url": "git+https://github.com/don/BluetoothSerial.git"
   },
   "keywords": [
-    "ecosystem:cordova",
-    "cordova-android",
-    "zebra-printer",
-    "Bluetooth",
-    "Zebra"
+    "cordova",
+    "bluetooth",
+    "serial",
+    "ble",
+    "arduino",
+    "ecosystem:cordova"
   ],
-  "engines": [
-    {
-      "name": "cordova",
-      "version": ">=3.0.0"
-    }
-  ],
-  "author": "Prakash Satyani",
-  "license": "Apache",
+  "author": "Don Coleman <don.coleman@gmail.com>",
+  "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/prakashsatyani/cordova-plugin-ble-zbtprinter/issues"
+    "url": "https://github.com/don/BluetoothSerial/issues"
   },
-  "homepage": "https://github.com/prakashsatyani/cordova-plugin-ble-zbtprinter#readme"
+  "homepage": "https://github.com/don/BluetoothSerial#readme"
 }
