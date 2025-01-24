@@ -408,7 +408,12 @@ public class BluetoothSerial extends CordovaPlugin {
 
     private void connect(CordovaArgs args, boolean secure, CallbackContext callbackContext) throws JSONException {
         String macAddress = args.getString(0);
+		
+		LOG.d(TAG, "macAddress= "+macAddress);
+		
         BluetoothDevice device = bluetoothAdapter.getRemoteDevice(macAddress);
+		
+		LOG.d(TAG, "device= "+device);
 
         if (device != null) {
             connectCallback = callbackContext;
